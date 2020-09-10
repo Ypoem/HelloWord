@@ -26,6 +26,13 @@
 		20BF36702508836600950339 /* UIView+NetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BF366F2508836600950339 /* UIView+NetView.m */; };
 		20BF36742508AAD800950339 /* Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BF36732508AAD800950339 /* Extension.m */; };
 		20BF36782508C39700950339 /* YuAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BF36772508C39700950339 /* YuAlertView.m */; };
+		20BF367B2508C92A00950339 /* ToastAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BF367A2508C92A00950339 /* ToastAlertView.m */; };
+		20BF367D2508CC0900950339 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BF367C2508CC0900950339 /* AFNetworking.framework */; };
+		20BF367E2508CC0900950339 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20BF367C2508CC0900950339 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20BF36812508CC1100950339 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BF36802508CC1100950339 /* Masonry.framework */; };
+		20BF36822508CC1100950339 /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20BF36802508CC1100950339 /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20BF36842508CC1700950339 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BF36832508CC1700950339 /* MBProgressHUD.framework */; };
+		20BF36852508CC1700950339 /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20BF36832508CC1700950339 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3A3EE9F3089367FECD8BA074 /* Pods_HelloWord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449E22C3C051E9237281E792 /* Pods_HelloWord.framework */; };
 		5939C876007F562D0A7B9A1E /* Pods_HelloWordTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1373B93D67208159583593 /* Pods_HelloWordTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +53,22 @@
 			remoteInfo = HelloWord;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20BF367F2508CC0900950339 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20BF36822508CC1100950339 /* Masonry.framework in Embed Frameworks */,
+				20BF367E2508CC0900950339 /* AFNetworking.framework in Embed Frameworks */,
+				20BF36852508CC1700950339 /* MBProgressHUD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		120C76A6136C9FCBC2C52AF4 /* Pods-HelloWordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWordTests.release.xcconfig"; path = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +109,11 @@
 		20BF36732508AAD800950339 /* Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extension.m; sourceTree = "<group>"; };
 		20BF36762508C39700950339 /* YuAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuAlertView.h; sourceTree = "<group>"; };
 		20BF36772508C39700950339 /* YuAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuAlertView.m; sourceTree = "<group>"; };
+		20BF36792508C92A00950339 /* ToastAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToastAlertView.h; sourceTree = "<group>"; };
+		20BF367A2508C92A00950339 /* ToastAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToastAlertView.m; sourceTree = "<group>"; };
+		20BF367C2508CC0900950339 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BF36802508CC1100950339 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BF36832508CC1700950339 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1373B93D67208159583593 /* Pods_HelloWordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9DF99E88C305DCC81F8626 /* Pods-HelloWordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWordTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests.debug.xcconfig"; sourceTree = "<group>"; };
 		42FE732A4A4A4E72DCE0EEA3 /* Pods-HelloWord-HelloWordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWord-HelloWordUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWord-HelloWordUITests/Pods-HelloWord-HelloWordUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +129,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BF36842508CC1700950339 /* MBProgressHUD.framework in Frameworks */,
 				3A3EE9F3089367FECD8BA074 /* Pods_HelloWord.framework in Frameworks */,
+				20BF367D2508CC0900950339 /* AFNetworking.framework in Frameworks */,
+				20BF36812508CC1100950339 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +268,8 @@
 			children = (
 				20BF36762508C39700950339 /* YuAlertView.h */,
 				20BF36772508C39700950339 /* YuAlertView.m */,
+				20BF36792508C92A00950339 /* ToastAlertView.h */,
+				20BF367A2508C92A00950339 /* ToastAlertView.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -244,6 +277,9 @@
 		AD13DEEA92B94BD33B485133 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20BF36832508CC1700950339 /* MBProgressHUD.framework */,
+				20BF36802508CC1100950339 /* Masonry.framework */,
+				20BF367C2508CC0900950339 /* AFNetworking.framework */,
 				449E22C3C051E9237281E792 /* Pods_HelloWord.framework */,
 				C3E7137FD6030A3C50FEE06A /* Pods_HelloWord_HelloWordUITests.framework */,
 				2C1373B93D67208159583593 /* Pods_HelloWordTests.framework */,
@@ -275,6 +311,8 @@
 				20BF361B250870BE00950339 /* Sources */,
 				20BF361C250870BE00950339 /* Frameworks */,
 				20BF361D250870BE00950339 /* Resources */,
+				20BF367F2508CC0900950339 /* Embed Frameworks */,
+				16593A82E913128139E37058 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,7 +331,6 @@
 				20BF3636250870C100950339 /* Sources */,
 				20BF3637250870C100950339 /* Frameworks */,
 				20BF3638250870C100950339 /* Resources */,
-				718297DD10CF099CCF0F5C3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,6 +350,7 @@
 				20BF3641250870C100950339 /* Sources */,
 				20BF3642250870C100950339 /* Frameworks */,
 				20BF3643250870C100950339 /* Resources */,
+				41D9FEF7D23C1F7825E2F9C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -394,6 +432,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		16593A82E913128139E37058 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWord/Pods-HelloWord-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWord/Pods-HelloWord-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWord/Pods-HelloWord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		19AC183FE31190B585E20CA7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,21 +493,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		718297DD10CF099CCF0F5C3A /* [CP] Embed Pods Frameworks */ = {
+		41D9FEF7D23C1F7825E2F9C6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWord-HelloWordUITests/Pods-HelloWord-HelloWordUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWord-HelloWordUITests/Pods-HelloWord-HelloWordUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWord-HelloWordUITests/Pods-HelloWord-HelloWordUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8768A59A692725FCD38D5C69 /* [CP] Check Pods Manifest.lock */ = {
@@ -491,6 +546,7 @@
 				20BF3624250870BE00950339 /* AppDelegate.m in Sources */,
 				20BF366A2508829F00950339 /* BaseRequest.m in Sources */,
 				20BF36782508C39700950339 /* YuAlertView.m in Sources */,
+				20BF367B2508C92A00950339 /* ToastAlertView.m in Sources */,
 				20BF366325087F4A00950339 /* BaseWebView.m in Sources */,
 				20BF3635250870C100950339 /* main.m in Sources */,
 				20BF366D2508832500950339 /* NetErrorView.m in Sources */,

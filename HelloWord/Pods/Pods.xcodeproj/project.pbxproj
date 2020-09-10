@@ -20,19 +20,18 @@
 		17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E3E71EDA19F046B6822A380737AF7783 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AE6F98C9033744B20122247CBF609 /* Masonry-dummy.m */; };
 		1AC36159DEDD4452C304D5B1FFB688D1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236D0F66C434F24F5FE07D81F7AE1B94 /* MobileCoreServices.framework */; };
-		1E327DB26299BD8FCA7A8DF3222C57F6 /* Pods-HelloWord-HelloWordUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1326E81DAD1F9754F26D914BB758EFE /* Pods-HelloWord-HelloWordUITests-dummy.m */; };
 		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E7096C3633DA5471214B3BC8C2A86B /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 396601BE7D6A7C20C78118C409AF8FAC /* MASViewAttribute.m */; };
 		2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DD09AE934BE985DED2592468CC2EE8 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30191C19E81363CEFFA0E3A2636C5EFF /* Pods-HelloWord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B49307112FCAD96BD4DF3088343AD0 /* Pods-HelloWord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 054628DB2E3EBA3F0FEE6F58E67E7149 /* AFAutoPurgingImageCache.m */; };
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4501E076B2F97027F6D20DA1A01C00F1 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2281F03CD92EE32DF6E025482D56C4 /* UIButton+AFNetworking.m */; };
-		37FAF657E2F16CA279D4EF9A58943FEF /* Pods-HelloWord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6243192DCA0C3BD7402DB04C29F489A7 /* Pods-HelloWord-dummy.m */; };
+		381C9D8B756BD24B92FF7EA20D8C7C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5318281D3A275F11AED17A1C0471FE97 /* Foundation.framework */; };
 		3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 765B838825CB8B94F9E6525C3EFF21A3 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BDC8FBDB7922AA1ABA2C90DBA2DBB35 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A034BF4BA34558DCC12A742B3BDEB9 /* AFNetworking-dummy.m */; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 26602A7B40B4971129E9C67834A2952B /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC230D50B24FCB9B83B9AE672E00D34 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8AEC3A55D79D4A33ADA61CB6376FEB /* Pods-HelloWordTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B10897BC8000689EF7E044EF16F9BEA6 /* Pods-HelloWordTests-dummy.m */; };
 		45AD6149EEB2883EAC09063B5FDD6F5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6558C6C347D9D4F927CFDDFF51AE319A /* CoreGraphics.framework */; };
 		47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B8E96CC1FDD64ACA9B0B1371F90F7A /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A604B5A395AAB7C6AF86299AC49D91 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,14 +50,14 @@
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E9E3C3423E3488147ECEFD75F061 /* MASLayoutConstraint.m */; };
 		856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C618352237547E06B3B95AD075BFD0 /* AFURLSessionManager.m */; };
 		870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 907E1DD483DB850A7FA6A8498DA9727F /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87D0041093B930417389D62E65E23DD8 /* Pods-HelloWordTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 020D0BCAEC824C4B891D15DAACE4BA07 /* Pods-HelloWordTests-dummy.m */; };
+		8B88923F44767F9BE442A6EA24C8BD0A /* Pods-HelloWord-HelloWordUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BB73CA4146DF490ED6735B5F2DB154 /* Pods-HelloWord-HelloWordUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B71F86CED0B087EBE494B287FCD3C20 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF856C89E3237A674EBBE49D2011541 /* Pods-HelloWord-HelloWordUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D61C1138467174F18D65257BC40D6FBC /* Pods-HelloWord-HelloWordUITests-dummy.m */; };
 		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3CD42F5941083B0E0DD69671355866 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A72B8AA27361D87E7D3ADD9C4D6F51F /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F43F2D5DF9F540521BBE93AB29887A /* UIActivityIndicatorView+AFNetworking.m */; };
 		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E41FF8652531A5D471A44BDDFB73EAA /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 726B638B3DE19B3A7D083AAA0FB93AAB /* AFNetworkReachabilityManager.m */; };
-		97A4ADE70C009910291C372943F96866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5318281D3A275F11AED17A1C0471FE97 /* Foundation.framework */; };
 		98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C786252DBEB30977C90AD14B037A2D /* UIProgressView+AFNetworking.m */; };
 		9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0D91DF444EFD1B3F25DA7763C1427C /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0997B021015AE8F16C68D4B9C80D69 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,10 +69,13 @@
 		AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 72310686C2BE97DBF9C06BC03C25A687 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E9424AD99C662E1ECDDFBA8C99D1DBF6 /* UIImageView+AFNetworking.m */; };
 		B26EDD2D9A9BC8CDDEADEA8DBEC606A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F12E5447790126C37E6D2F81E92301 /* SystemConfiguration.framework */; };
-		B41B0097283BF9C28AF7462EE59C56C3 /* Pods-HelloWord-HelloWordUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDBB39E4BCB5BAD1AB1C5483DCA09EE /* Pods-HelloWord-HelloWordUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4A148BC7D5A704AEDABAB112C9F4BE2 /* Pods-HelloWord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8EF994E6BA1DA0340C1825F7B8E80A /* Pods-HelloWord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A50588E1A03ECD2DDF91BF66F0022E /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD63A9923B02274F851426A21FC8426 /* MASViewConstraint.m */; };
+		B9CD84CD763758F301392A0384385076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5318281D3A275F11AED17A1C0471FE97 /* Foundation.framework */; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0072BADD0B4FAE4207C91A656BA9BC /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C1766124C8C3D2D274C0D121D705B405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5318281D3A275F11AED17A1C0471FE97 /* Foundation.framework */; };
+		C35C3679B21ED30644D668B491A9FAC5 /* Pods-HelloWord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F14A5C122DB49AC787F135DC7BFBDA /* Pods-HelloWord-dummy.m */; };
 		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F420C4569D4354D2D621DA59E6F883F /* UIKit.framework */; };
 		D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 589FF7A72A363F64882B89A732CE6C79 /* UIRefreshControl+AFNetworking.m */; };
 		D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A2ECAE3513059AE9EAFAB280C0176E58 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -82,83 +84,102 @@
 		E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CF68F47CD95905AAD2786A118E35F8AF /* AFURLRequestSerialization.m */; };
 		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D66E0039AB4833F31435438627C8F8AA /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5318281D3A275F11AED17A1C0471FE97 /* Foundation.framework */; };
-		E717D1A351552CE399BD6650D749E2B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5318281D3A275F11AED17A1C0471FE97 /* Foundation.framework */; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 297F6454AAF66514A7109011FA4D305B /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5C7DC1D4FA13F850713FFD4DCBC73 /* MASConstraint.m */; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7742821A8972DE0805B1F740776D55A5 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA0576704F0D72B56E3F95A5BDBD68C /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0BAE799D6B00BB09656E329205D9C54 /* Pods-HelloWordTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A2F17D8E716839A18E12A2F9F78D2A /* Pods-HelloWordTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23803CCC126C518F8009781BA351E3F1 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4BDE3BFDAB81912D2DA9C5FA53C57A8 /* Pods-HelloWordTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64098B3462AC6215504731F0B9CD6943 /* Pods-HelloWordTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A341B9A5EF4B9EE6F07DB830AFAF8616 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F961E03D647DD7930E6DC0A10947C762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5318281D3A275F11AED17A1C0471FE97 /* Foundation.framework */; };
 		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8BC76E4F90D72999E3C5449ED54E6D /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF0EE7E6F869E55DA268F25622674EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5318281D3A275F11AED17A1C0471FE97 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EEFD56A9C30D5D7AC3C657B2E321DFD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
-		773389775965F17AFC099E0A58DD9BB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		AF4CA6A021A82ABFF5F0E6F8E4288F16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F088EA301D23BFA70B6F268203186BF5;
-			remoteInfo = "Pods-HelloWord";
-		};
-		C799B935F232219B5C33CE6FA0F3BE62 /* PBXContainerItemProxy */ = {
+		29714214670550A6C74CA2D52D4A1D4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
+		40D44A5B725DD462E060667D59536173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		79D54AED9413CD55CDAFCC209FFCC332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		8C6FBA5CF13E6DFECDF20A3E186CED7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F088EA301D23BFA70B6F268203186BF5;
+			remoteInfo = "Pods-HelloWord";
+		};
+		9EDAF6D8598B2C76A6A782CC45F2A093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		A80C5A31D40E659023AD062DD98B733A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		FCFDA85DF7AD602A70D838817C5E9C92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020D0BCAEC824C4B891D15DAACE4BA07 /* Pods-HelloWordTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWordTests-dummy.m"; sourceTree = "<group>"; };
-		02C8DCFCD0C2CA873908CCC7090B71AB /* Pods-HelloWordTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWordTests-Info.plist"; sourceTree = "<group>"; };
 		02E9B096C512078B36623F0611ABC580 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		03E98C04C9D60B08CA1EC823C00EE3A4 /* Pods-HelloWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWord.release.xcconfig"; sourceTree = "<group>"; };
 		054628DB2E3EBA3F0FEE6F58E67E7149 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		097CD7FAE5E214846F26C62130CD4F00 /* Pods-HelloWordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWordTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0B71F86CED0B087EBE494B287FCD3C20 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		172BAAD6986E1F2A5D6F6B8C11DB2410 /* Pods-HelloWord-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWord-acknowledgements.plist"; sourceTree = "<group>"; };
 		1CA0576704F0D72B56E3F95A5BDBD68C /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1D564CF2F3ACD21FBB11D41EC104CCEF /* Pods-HelloWordTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWordTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1EA10041184FFC9D824BA6E24BB46EFF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20A215E4EA4E92531DF0B94ED7C003F3 /* Pods-HelloWord-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWord-acknowledgements.plist"; sourceTree = "<group>"; };
-		2122202E7FB4B3712BD016C588F1BD88 /* Pods-HelloWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWord.debug.xcconfig"; sourceTree = "<group>"; };
-		22A2F17D8E716839A18E12A2F9F78D2A /* Pods-HelloWordTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWordTests-umbrella.h"; sourceTree = "<group>"; };
+		201EF27C03AE87785307694620C8854C /* Pods-HelloWord-HelloWordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWord-HelloWordUITests.release.xcconfig"; sourceTree = "<group>"; };
 		236D0F66C434F24F5FE07D81F7AE1B94 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		23803CCC126C518F8009781BA351E3F1 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		26602A7B40B4971129E9C67834A2952B /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		2848A44E79EA771D68E6C9DA8825EF7A /* Pods-HelloWord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWord.modulemap"; sourceTree = "<group>"; };
 		297F6454AAF66514A7109011FA4D305B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		29A50588E1A03ECD2DDF91BF66F0022E /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		2A7FE971144E67DCEC8D90C3825608C1 /* Pods-HelloWord-HelloWordUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWord-HelloWordUITests.modulemap"; sourceTree = "<group>"; };
+		2D8EF994E6BA1DA0340C1825F7B8E80A /* Pods-HelloWord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWord-umbrella.h"; sourceTree = "<group>"; };
 		2ED196CC9A5F1FC1BFD027F6706D477E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		3050B61E50C5782E8E1D11C33A234495 /* Pods-HelloWordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWordTests.debug.xcconfig"; sourceTree = "<group>"; };
 		31E7096C3633DA5471214B3BC8C2A86B /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		353E7F7A905D28C6D66B55C982A884C3 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		3651C2674737EC0B8F3C020854A5BD97 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		396601BE7D6A7C20C78118C409AF8FAC /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		411530532F910C8EAC6CC8168C2DA0E1 /* Pods-HelloWord-HelloWordUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWord-HelloWordUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		43C0EF257ED019CF24285842640A4660 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		4501E076B2F97027F6D20DA1A01C00F1 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		452285F15F8CC307FFB74F39A4248720 /* Pods_HelloWordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWordTests.framework; path = "Pods-HelloWordTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BD11DAD3B4281A7ED24D5E0F5FE663 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		46EDEEC2E6588D156D84677326EA0FD4 /* Pods-HelloWordTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWordTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4748CF153031ABECC57BBC76B43535FC /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		482E79275E34E8F992664A81C0542303 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		4AAECE36BBC795AFA2E53FEE0C67BCF8 /* Pods-HelloWord-HelloWordUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWord-HelloWordUITests.modulemap"; sourceTree = "<group>"; };
 		4C2281F03CD92EE32DF6E025482D56C4 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		4C968C6761407DDAEDF08431676E521C /* Pods-HelloWord-HelloWordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWord-HelloWordUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4E41FF8652531A5D471A44BDDFB73EAA /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		50C121E41370DED0D3E54A8AF4BD7E40 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		50D5C7DC1D4FA13F850713FFD4DCBC73 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
@@ -171,11 +192,12 @@
 		5C8D9AC2C5C88309CE8DB53795DF9B43 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		5F420C4569D4354D2D621DA59E6F883F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5FC795A84D51391703CA097A8CA0BA35 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		6243192DCA0C3BD7402DB04C29F489A7 /* Pods-HelloWord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWord-dummy.m"; sourceTree = "<group>"; };
+		61BB73CA4146DF490ED6735B5F2DB154 /* Pods-HelloWord-HelloWordUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWord-HelloWordUITests-umbrella.h"; sourceTree = "<group>"; };
+		62D3DD71AD86DE56B950D436C480CBF7 /* Pods-HelloWord-HelloWordUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWord-HelloWordUITests-Info.plist"; sourceTree = "<group>"; };
+		64098B3462AC6215504731F0B9CD6943 /* Pods-HelloWordTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWordTests-umbrella.h"; sourceTree = "<group>"; };
 		65110F2F8C0CE554C72CF99421A1E4DD /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		6558C6C347D9D4F927CFDDFF51AE319A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		662416BF147C7809DFDD1459737EA75A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		66B49307112FCAD96BD4DF3088343AD0 /* Pods-HelloWord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWord-umbrella.h"; sourceTree = "<group>"; };
 		6A3FE4D2441F7EB81B810947703AFECE /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		6AD63A9923B02274F851426A21FC8426 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		6BB5EE11E684D287579623478016CD2E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -183,11 +205,14 @@
 		7113B3892978014FFED343387BE97CE6 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		72310686C2BE97DBF9C06BC03C25A687 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		726B638B3DE19B3A7D083AAA0FB93AAB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		74E2160B1D9F52707B604DEBCEB4268C /* Pods-HelloWordTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWordTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75F14A5C122DB49AC787F135DC7BFBDA /* Pods-HelloWord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWord-dummy.m"; sourceTree = "<group>"; };
 		765B838825CB8B94F9E6525C3EFF21A3 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		7742821A8972DE0805B1F740776D55A5 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		77ECC595C54E697A5EB32EE90D0E2B14 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		79DD09AE934BE985DED2592468CC2EE8 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		79EDBFFD6C6DE8E40162B2608FC704E7 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		79F1730F4F79FC3B1549F5671273AAF4 /* Pods-HelloWord-HelloWordUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWord-HelloWordUITests-frameworks.sh"; sourceTree = "<group>"; };
 		7B09654579B57E7ABA1372CF48DDED66 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		7D0D91DF444EFD1B3F25DA7763C1427C /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		7EC230D50B24FCB9B83B9AE672E00D34 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
@@ -195,7 +220,6 @@
 		82BAADA79DC440DB1DDEA4519BF4257C /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D07ADD1AC88AC44FFADEAACE4261BA5 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		8DA008356EF1641ABEF24B568C62555D /* Pods-HelloWordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWordTests.release.xcconfig"; sourceTree = "<group>"; };
 		907E1DD483DB850A7FA6A8498DA9727F /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		9270BEDA39E01A2F863BAB1A3A5F56D5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		94F12E5447790126C37E6D2F81E92301 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
@@ -207,29 +231,29 @@
 		A44CB7C0219E87EEB0A45CB8E8C1F390 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		A4B8E96CC1FDD64ACA9B0B1371F90F7A /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A838E760D416126F2EDA2CDF808C21B6 /* Pods-HelloWord-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWord-Info.plist"; sourceTree = "<group>"; };
 		A8B040FCE5C75A8CEDD2DAE7093E3233 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		A9C786252DBEB30977C90AD14B037A2D /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		ACF8F9C5AF87FC81D3ACE0CECC199C5C /* Pods-HelloWordTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWordTests-frameworks.sh"; sourceTree = "<group>"; };
+		AD1477ADAA21B4BE468BD7ABA0432B2A /* Pods-HelloWord-HelloWordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWord-HelloWordUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE52105644343A31330FCF1C46AB3876 /* Pods_HelloWord_HelloWordUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWord_HelloWordUITests.framework; path = "Pods-HelloWord-HelloWordUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B05C2150D3F09481712867AAA8EB488D /* Pods-HelloWordTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWordTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B1326E81DAD1F9754F26D914BB758EFE /* Pods-HelloWord-HelloWordUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWord-HelloWordUITests-dummy.m"; sourceTree = "<group>"; };
+		AEC8722B83DFB83373469A9A778EEE3D /* Pods-HelloWord-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWord-frameworks.sh"; sourceTree = "<group>"; };
+		B0D9874395839D0F474C1ADA0B4AFF5A /* Pods-HelloWordTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWordTests.modulemap"; sourceTree = "<group>"; };
+		B10897BC8000689EF7E044EF16F9BEA6 /* Pods-HelloWordTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWordTests-dummy.m"; sourceTree = "<group>"; };
 		B1F71E271FEC8E3E1C372AABFF35FBB1 /* Pods_HelloWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWord.framework; path = "Pods-HelloWord.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2170C338322C25EA3847AF8CA594ACC /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		B291E3C2CE8E79A1DC0DD1EC2318C9A2 /* Pods-HelloWord-HelloWordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWord-HelloWordUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B3553266790EE37AB3702E02F5830178 /* Pods-HelloWord-HelloWordUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWord-HelloWordUITests-Info.plist"; sourceTree = "<group>"; };
-		BD8AB0B1364325166714A7E1AE2EBFEC /* Pods-HelloWord-HelloWordUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWord-HelloWordUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BEDBB39E4BCB5BAD1AB1C5483DCA09EE /* Pods-HelloWord-HelloWordUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWord-HelloWordUITests-umbrella.h"; sourceTree = "<group>"; };
-		C11CB1DEFD9CFFD36EFFE248E8128322 /* Pods-HelloWord-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWord-Info.plist"; sourceTree = "<group>"; };
+		B757CF73CF54C22F697A5C519B4BDD1B /* Pods-HelloWordTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWordTests-Info.plist"; sourceTree = "<group>"; };
 		C52F0F04FA07205D1965A15EAF4A1CAA /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		C8D3AEFAEFF2372A362E72390DF03E2D /* Pods-HelloWord-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWord-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE0072BADD0B4FAE4207C91A656BA9BC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		CF68F47CD95905AAD2786A118E35F8AF /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CFA0E552669E2B8033F27BE75B66552E /* Pods-HelloWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWord.debug.xcconfig"; sourceTree = "<group>"; };
+		D10D6DFA79486AEC3937B17FF4B7A349 /* Pods-HelloWord-HelloWordUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWord-HelloWordUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D1A604B5A395AAB7C6AF86299AC49D91 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		D2D152AFF44F84586C1F9BF58F5F91A7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		D5E53EF2B60DF23203D9C8D958D5C1F8 /* Pods-HelloWordTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWordTests.modulemap"; sourceTree = "<group>"; };
+		D61C1138467174F18D65257BC40D6FBC /* Pods-HelloWord-HelloWordUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWord-HelloWordUITests-dummy.m"; sourceTree = "<group>"; };
 		D66E0039AB4833F31435438627C8F8AA /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		DA359346043C544A7F5A28F4BDF70336 /* Pods-HelloWordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWordTests.release.xcconfig"; sourceTree = "<group>"; };
 		DB36DB503F27CC188307D42FC569924A /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		DC69723B16D25BB3131EAD6CDD291B6C /* Pods-HelloWord-HelloWordUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWord-HelloWordUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DCCD0AD766DBDE71BB5B77F0069AE5F4 /* Pods-HelloWord-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWord-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF0997B021015AE8F16C68D4B9C80D69 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		DF8BC76E4F90D72999E3C5449ED54E6D /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		E10C614CFCA94E39E4716A548F53F74C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -240,11 +264,9 @@
 		E9A034BF4BA34558DCC12A742B3BDEB9 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		EB0AE6F98C9033744B20122247CBF609 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		ED3CD42F5941083B0E0DD69671355866 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		ED8471D249732FE9D3A69044DA9DDC42 /* Pods-HelloWord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWord.modulemap"; sourceTree = "<group>"; };
 		F0A4E9840EAA5E47914FD4D7C4480B15 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		F10E129757D09723A15DFE64F7598730 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		F1A206C917D8703508FA74BBE59F9546 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		F2D28C5D92E16BBFEC98C47A11906B16 /* Pods-HelloWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWord.release.xcconfig"; sourceTree = "<group>"; };
 		F2F2807CECF01C15750167563DFAC2E8 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		F9C618352237547E06B3B95AD075BFD0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		FF9F55AE7D4DB6A625C812EF0ED1556D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -261,6 +283,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		382FEC809514409E893BE73B50C50DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381C9D8B756BD24B92FF7EA20D8C7C95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,19 +300,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7110AA12A7396019C2BA983C1DB7C0B2 /* Frameworks */ = {
+		8E931BAA515A4C1D5BFD756757A5AF92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97A4ADE70C009910291C372943F96866 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91EC273992BF84A520ABE804517A73A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E717D1A351552CE399BD6650D749E2B7 /* Foundation.framework in Frameworks */,
+				C1766124C8C3D2D274C0D121D705B405 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,11 +320,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD2AB7EC31C6362B4D34EBD016DB0100 /* Frameworks */ = {
+		CCC76FC2BAC8367A4A99E5DE3DD52B62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F961E03D647DD7930E6DC0A10947C762 /* Foundation.framework in Frameworks */,
+				B9CD84CD763758F301392A0384385076 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,32 +342,6 @@
 				452285F15F8CC307FFB74F39A4248720 /* Pods_HelloWordTests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1D16B84663A0890900AE895ADE12860E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E4503CF4F1165B73F0BEC114A069978D /* Pods-HelloWord */,
-				2C3FF276E8ECE23FE1FBA1875C602514 /* Pods-HelloWord-HelloWordUITests */,
-				66671D33E26F79BF9A295DAC9D29163F /* Pods-HelloWordTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2C3FF276E8ECE23FE1FBA1875C602514 /* Pods-HelloWord-HelloWordUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2A7FE971144E67DCEC8D90C3825608C1 /* Pods-HelloWord-HelloWordUITests.modulemap */,
-				BD8AB0B1364325166714A7E1AE2EBFEC /* Pods-HelloWord-HelloWordUITests-acknowledgements.markdown */,
-				DC69723B16D25BB3131EAD6CDD291B6C /* Pods-HelloWord-HelloWordUITests-acknowledgements.plist */,
-				B1326E81DAD1F9754F26D914BB758EFE /* Pods-HelloWord-HelloWordUITests-dummy.m */,
-				B3553266790EE37AB3702E02F5830178 /* Pods-HelloWord-HelloWordUITests-Info.plist */,
-				BEDBB39E4BCB5BAD1AB1C5483DCA09EE /* Pods-HelloWord-HelloWordUITests-umbrella.h */,
-				B291E3C2CE8E79A1DC0DD1EC2318C9A2 /* Pods-HelloWord-HelloWordUITests.debug.xcconfig */,
-				4C968C6761407DDAEDF08431676E521C /* Pods-HelloWord-HelloWordUITests.release.xcconfig */,
-			);
-			name = "Pods-HelloWord-HelloWordUITests";
-			path = "Target Support Files/Pods-HelloWord-HelloWordUITests";
 			sourceTree = "<group>";
 		};
 		2C784EE5D5D0A22EE646E89AB572230A /* Serialization */ = {
@@ -420,23 +416,6 @@
 				B3E556055D583244712349935CBDF46A /* MBProgressHUD */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		66671D33E26F79BF9A295DAC9D29163F /* Pods-HelloWordTests */ = {
-			isa = PBXGroup;
-			children = (
-				D5E53EF2B60DF23203D9C8D958D5C1F8 /* Pods-HelloWordTests.modulemap */,
-				46EDEEC2E6588D156D84677326EA0FD4 /* Pods-HelloWordTests-acknowledgements.markdown */,
-				B05C2150D3F09481712867AAA8EB488D /* Pods-HelloWordTests-acknowledgements.plist */,
-				020D0BCAEC824C4B891D15DAACE4BA07 /* Pods-HelloWordTests-dummy.m */,
-				ACF8F9C5AF87FC81D3ACE0CECC199C5C /* Pods-HelloWordTests-frameworks.sh */,
-				02C8DCFCD0C2CA873908CCC7090B71AB /* Pods-HelloWordTests-Info.plist */,
-				22A2F17D8E716839A18E12A2F9F78D2A /* Pods-HelloWordTests-umbrella.h */,
-				097CD7FAE5E214846F26C62130CD4F00 /* Pods-HelloWordTests.debug.xcconfig */,
-				8DA008356EF1641ABEF24B568C62555D /* Pods-HelloWordTests.release.xcconfig */,
-			);
-			name = "Pods-HelloWordTests";
-			path = "Target Support Files/Pods-HelloWordTests";
 			sourceTree = "<group>";
 		};
 		6DE718206E1FADF3F2AB4F46D6ADF46B /* UIKit */ = {
@@ -536,6 +515,23 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		B3E6C5F92E1962783ABF795F724F41CD /* Pods-HelloWord-HelloWordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AAECE36BBC795AFA2E53FEE0C67BCF8 /* Pods-HelloWord-HelloWordUITests.modulemap */,
+				411530532F910C8EAC6CC8168C2DA0E1 /* Pods-HelloWord-HelloWordUITests-acknowledgements.markdown */,
+				D10D6DFA79486AEC3937B17FF4B7A349 /* Pods-HelloWord-HelloWordUITests-acknowledgements.plist */,
+				D61C1138467174F18D65257BC40D6FBC /* Pods-HelloWord-HelloWordUITests-dummy.m */,
+				79F1730F4F79FC3B1549F5671273AAF4 /* Pods-HelloWord-HelloWordUITests-frameworks.sh */,
+				62D3DD71AD86DE56B950D436C480CBF7 /* Pods-HelloWord-HelloWordUITests-Info.plist */,
+				61BB73CA4146DF490ED6735B5F2DB154 /* Pods-HelloWord-HelloWordUITests-umbrella.h */,
+				AD1477ADAA21B4BE468BD7ABA0432B2A /* Pods-HelloWord-HelloWordUITests.debug.xcconfig */,
+				201EF27C03AE87785307694620C8854C /* Pods-HelloWord-HelloWordUITests.release.xcconfig */,
+			);
+			name = "Pods-HelloWord-HelloWordUITests";
+			path = "Target Support Files/Pods-HelloWord-HelloWordUITests";
+			sourceTree = "<group>";
+		};
 		C1D85E87D6976B74CA7F8BB774A8BED9 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -577,34 +573,61 @@
 				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
 				5E80CBD5C87AA253B52BFD76FDDDDB3A /* Pods */,
 				1B2AE495DF23AF8D38CDFB99D8BC5A79 /* Products */,
-				1D16B84663A0890900AE895ADE12860E /* Targets Support Files */,
+				E36AA38D746846276940EA016B0C3A49 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E4503CF4F1165B73F0BEC114A069978D /* Pods-HelloWord */ = {
+		D4581A8461057BBD94433BE27A217483 /* Pods-HelloWord */ = {
 			isa = PBXGroup;
 			children = (
-				ED8471D249732FE9D3A69044DA9DDC42 /* Pods-HelloWord.modulemap */,
-				DCCD0AD766DBDE71BB5B77F0069AE5F4 /* Pods-HelloWord-acknowledgements.markdown */,
-				20A215E4EA4E92531DF0B94ED7C003F3 /* Pods-HelloWord-acknowledgements.plist */,
-				6243192DCA0C3BD7402DB04C29F489A7 /* Pods-HelloWord-dummy.m */,
-				C11CB1DEFD9CFFD36EFFE248E8128322 /* Pods-HelloWord-Info.plist */,
-				66B49307112FCAD96BD4DF3088343AD0 /* Pods-HelloWord-umbrella.h */,
-				2122202E7FB4B3712BD016C588F1BD88 /* Pods-HelloWord.debug.xcconfig */,
-				F2D28C5D92E16BBFEC98C47A11906B16 /* Pods-HelloWord.release.xcconfig */,
+				2848A44E79EA771D68E6C9DA8825EF7A /* Pods-HelloWord.modulemap */,
+				C8D3AEFAEFF2372A362E72390DF03E2D /* Pods-HelloWord-acknowledgements.markdown */,
+				172BAAD6986E1F2A5D6F6B8C11DB2410 /* Pods-HelloWord-acknowledgements.plist */,
+				75F14A5C122DB49AC787F135DC7BFBDA /* Pods-HelloWord-dummy.m */,
+				AEC8722B83DFB83373469A9A778EEE3D /* Pods-HelloWord-frameworks.sh */,
+				A838E760D416126F2EDA2CDF808C21B6 /* Pods-HelloWord-Info.plist */,
+				2D8EF994E6BA1DA0340C1825F7B8E80A /* Pods-HelloWord-umbrella.h */,
+				CFA0E552669E2B8033F27BE75B66552E /* Pods-HelloWord.debug.xcconfig */,
+				03E98C04C9D60B08CA1EC823C00EE3A4 /* Pods-HelloWord.release.xcconfig */,
 			);
 			name = "Pods-HelloWord";
 			path = "Target Support Files/Pods-HelloWord";
 			sourceTree = "<group>";
 		};
+		D84AB5292479825EA4693120BBC408FB /* Pods-HelloWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D9874395839D0F474C1ADA0B4AFF5A /* Pods-HelloWordTests.modulemap */,
+				1D564CF2F3ACD21FBB11D41EC104CCEF /* Pods-HelloWordTests-acknowledgements.markdown */,
+				74E2160B1D9F52707B604DEBCEB4268C /* Pods-HelloWordTests-acknowledgements.plist */,
+				B10897BC8000689EF7E044EF16F9BEA6 /* Pods-HelloWordTests-dummy.m */,
+				B757CF73CF54C22F697A5C519B4BDD1B /* Pods-HelloWordTests-Info.plist */,
+				64098B3462AC6215504731F0B9CD6943 /* Pods-HelloWordTests-umbrella.h */,
+				3050B61E50C5782E8E1D11C33A234495 /* Pods-HelloWordTests.debug.xcconfig */,
+				DA359346043C544A7F5A28F4BDF70336 /* Pods-HelloWordTests.release.xcconfig */,
+			);
+			name = "Pods-HelloWordTests";
+			path = "Target Support Files/Pods-HelloWordTests";
+			sourceTree = "<group>";
+		};
+		E36AA38D746846276940EA016B0C3A49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4581A8461057BBD94433BE27A217483 /* Pods-HelloWord */,
+				B3E6C5F92E1962783ABF795F724F41CD /* Pods-HelloWord-HelloWordUITests */,
+				D84AB5292479825EA4693120BBC408FB /* Pods-HelloWordTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		633BEACA0AAE44600D75B6B3BEF9C254 /* Headers */ = {
+		2F75E45AFC5B732B9ECF839ACC81A9AC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30191C19E81363CEFFA0E3A2636C5EFF /* Pods-HelloWord-umbrella.h in Headers */,
+				8B88923F44767F9BE442A6EA24C8BD0A /* Pods-HelloWord-HelloWordUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,19 +663,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B779DF79AC3F7654937A149F11765F05 /* Headers */ = {
+		9A371CC98CEBB7FF523BFF7FA2EF9E1A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0BAE799D6B00BB09656E329205D9C54 /* Pods-HelloWordTests-umbrella.h in Headers */,
+				B4A148BC7D5A704AEDABAB112C9F4BE2 /* Pods-HelloWord-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBC769E2272C1527BA7EB336A29058A2 /* Headers */ = {
+		F5F08BE62AF55FFBFD7F72FB61DE77C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41B0097283BF9C28AF7462EE59C56C3 /* Pods-HelloWord-HelloWordUITests-umbrella.h in Headers */,
+				F4BDE3BFDAB81912D2DA9C5FA53C57A8 /* Pods-HelloWordTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,16 +729,19 @@
 		};
 		18A1F8B3F24E74B5F7C6F861B81CF241 /* Pods-HelloWord-HelloWordUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD6560FE1C59F45B518042D9E190F789 /* Build configuration list for PBXNativeTarget "Pods-HelloWord-HelloWordUITests" */;
+			buildConfigurationList = 63042FC3A7C9C3AB1E03F53DFC4C4B47 /* Build configuration list for PBXNativeTarget "Pods-HelloWord-HelloWordUITests" */;
 			buildPhases = (
-				CBC769E2272C1527BA7EB336A29058A2 /* Headers */,
-				A3C1781429FB8486CCBF46023485BDD7 /* Sources */,
-				CD2AB7EC31C6362B4D34EBD016DB0100 /* Frameworks */,
-				F616FE9C0C9E36DAF8ADBFB8F75DB2F6 /* Resources */,
+				2F75E45AFC5B732B9ECF839ACC81A9AC /* Headers */,
+				22CA3DDD02045C196A7E13C64CCA0E0D /* Sources */,
+				CCC76FC2BAC8367A4A99E5DE3DD52B62 /* Frameworks */,
+				8CF4A97E6667663796558B21DBB0F4CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C061611AB8E15C2FB03B83617CA6A4F9 /* PBXTargetDependency */,
+				015B4A90B4D0F6D537D6390796B258EC /* PBXTargetDependency */,
+				2FA853CF93CF02DE6C77F7CDDFA73512 /* PBXTargetDependency */,
 			);
 			name = "Pods-HelloWord-HelloWordUITests";
 			productName = "Pods-HelloWord-HelloWordUITests";
@@ -760,20 +786,17 @@
 		};
 		901143BFEBF9F2F72FDBC20247A1E790 /* Pods-HelloWordTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9986471429046F62031C49649E0FAB5 /* Build configuration list for PBXNativeTarget "Pods-HelloWordTests" */;
+			buildConfigurationList = 275E5679A88D58D104FD6468DF846B54 /* Build configuration list for PBXNativeTarget "Pods-HelloWordTests" */;
 			buildPhases = (
-				B779DF79AC3F7654937A149F11765F05 /* Headers */,
-				31BD6D2D675B0D22BE0297BB13DD4A7E /* Sources */,
-				91EC273992BF84A520ABE804517A73A2 /* Frameworks */,
-				404B866C55FEEC90C9579AB851B08675 /* Resources */,
+				F5F08BE62AF55FFBFD7F72FB61DE77C1 /* Headers */,
+				E7B967B565AE768767ACDAF47E5EFFB6 /* Sources */,
+				8E931BAA515A4C1D5BFD756757A5AF92 /* Frameworks */,
+				0DACC6F70F96B7B497C0B4133C999635 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4C39994390C5ACA57AF4DE27A79E75E5 /* PBXTargetDependency */,
-				2ACF30B053E056762A880D671A3A4489 /* PBXTargetDependency */,
-				42129580B973852BE1003928EA054A6F /* PBXTargetDependency */,
-				F26CF658586965475EF9ADF9867ED308 /* PBXTargetDependency */,
+				8E361CD313AA2FA7E1B0E0CA64C7E287 /* PBXTargetDependency */,
 			);
 			name = "Pods-HelloWordTests";
 			productName = "Pods-HelloWordTests";
@@ -782,16 +805,19 @@
 		};
 		F088EA301D23BFA70B6F268203186BF5 /* Pods-HelloWord */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E85077D718076CAE56B44F0F6735552 /* Build configuration list for PBXNativeTarget "Pods-HelloWord" */;
+			buildConfigurationList = 5DB54AFC7D13DCE5114582DF3DFE0BFB /* Build configuration list for PBXNativeTarget "Pods-HelloWord" */;
 			buildPhases = (
-				633BEACA0AAE44600D75B6B3BEF9C254 /* Headers */,
-				8DD5CD4B8B687B6A992DF7EB0E05B6A2 /* Sources */,
-				7110AA12A7396019C2BA983C1DB7C0B2 /* Frameworks */,
-				E0167D44C2B6FA1E3D48AA95201166A3 /* Resources */,
+				9A371CC98CEBB7FF523BFF7FA2EF9E1A /* Headers */,
+				F87178EB93CE33AF77C49E8B78FFB282 /* Sources */,
+				382FEC809514409E893BE73B50C50DCA /* Frameworks */,
+				DF20263837CFFA9E833FD7B6D5C07754 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BB4D7ABBEBF0734C369DD6AC8ED2348C /* PBXTargetDependency */,
+				C633F1D9E6992517C131A1EA9D3939AA /* PBXTargetDependency */,
+				376511287F142B443F299F6810FF7D6C /* PBXTargetDependency */,
 			);
 			name = "Pods-HelloWord";
 			productName = "Pods-HelloWord";
@@ -831,7 +857,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		404B866C55FEEC90C9579AB851B08675 /* Resources */ = {
+		0DACC6F70F96B7B497C0B4133C999635 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -859,14 +885,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0167D44C2B6FA1E3D48AA95201166A3 /* Resources */ = {
+		8CF4A97E6667663796558B21DBB0F4CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F616FE9C0C9E36DAF8ADBFB8F75DB2F6 /* Resources */ = {
+		DF20263837CFFA9E833FD7B6D5C07754 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -894,27 +920,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31BD6D2D675B0D22BE0297BB13DD4A7E /* Sources */ = {
+		22CA3DDD02045C196A7E13C64CCA0E0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D0041093B930417389D62E65E23DD8 /* Pods-HelloWordTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DD5CD4B8B687B6A992DF7EB0E05B6A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37FAF657E2F16CA279D4EF9A58943FEF /* Pods-HelloWord-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3C1781429FB8486CCBF46023485BDD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E327DB26299BD8FCA7A8DF3222C57F6 /* Pods-HelloWord-HelloWordUITests-dummy.m in Sources */,
+				8BF856C89E3237A674EBBE49D2011541 /* Pods-HelloWord-HelloWordUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -950,112 +960,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7B967B565AE768767ACDAF47E5EFFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8AEC3A55D79D4A33ADA61CB6376FEB /* Pods-HelloWordTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87178EB93CE33AF77C49E8B78FFB282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35C3679B21ED30644D668B491A9FAC5 /* Pods-HelloWord-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2ACF30B053E056762A880D671A3A4489 /* PBXTargetDependency */ = {
+		015B4A90B4D0F6D537D6390796B258EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 3EEFD56A9C30D5D7AC3C657B2E321DFD /* PBXContainerItemProxy */;
+			targetProxy = 9EDAF6D8598B2C76A6A782CC45F2A093 /* PBXContainerItemProxy */;
 		};
-		42129580B973852BE1003928EA054A6F /* PBXTargetDependency */ = {
+		2FA853CF93CF02DE6C77F7CDDFA73512 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 773389775965F17AFC099E0A58DD9BB3 /* PBXContainerItemProxy */;
+			targetProxy = FCFDA85DF7AD602A70D838817C5E9C92 /* PBXContainerItemProxy */;
 		};
-		4C39994390C5ACA57AF4DE27A79E75E5 /* PBXTargetDependency */ = {
+		376511287F142B443F299F6810FF7D6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = C799B935F232219B5C33CE6FA0F3BE62 /* PBXContainerItemProxy */;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = A80C5A31D40E659023AD062DD98B733A /* PBXContainerItemProxy */;
 		};
-		F26CF658586965475EF9ADF9867ED308 /* PBXTargetDependency */ = {
+		8E361CD313AA2FA7E1B0E0CA64C7E287 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HelloWord";
 			target = F088EA301D23BFA70B6F268203186BF5 /* Pods-HelloWord */;
-			targetProxy = AF4CA6A021A82ABFF5F0E6F8E4288F16 /* PBXContainerItemProxy */;
+			targetProxy = 8C6FBA5CF13E6DFECDF20A3E186CED7D /* PBXContainerItemProxy */;
+		};
+		BB4D7ABBEBF0734C369DD6AC8ED2348C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 40D44A5B725DD462E060667D59536173 /* PBXContainerItemProxy */;
+		};
+		C061611AB8E15C2FB03B83617CA6A4F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 29714214670550A6C74CA2D52D4A1D4F /* PBXContainerItemProxy */;
+		};
+		C633F1D9E6992517C131A1EA9D3939AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 79D54AED9413CD55CDAFCC209FFCC332 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		023D352B5710D24FD1444A4D1F013116 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2122202E7FB4B3712BD016C588F1BD88 /* Pods-HelloWord.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HelloWord/Pods-HelloWord-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HelloWord/Pods-HelloWord.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		08FEAB1DE3603249190184A8DCC4B425 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B291E3C2CE8E79A1DC0DD1EC2318C9A2 /* Pods-HelloWord-HelloWordUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HelloWord-HelloWordUITests/Pods-HelloWord-HelloWordUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HelloWord-HelloWordUITests/Pods-HelloWord-HelloWordUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		093BF7C62922298B0DEEA4DCD41A94BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7113B3892978014FFED343387BE97CE6 /* AFNetworking.debug.xcconfig */;
@@ -1154,6 +1122,45 @@
 			};
 			name = Debug;
 		};
+		291C73CE4FCBB589186C188102CA8B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA359346043C544A7F5A28F4BDF70336 /* Pods-HelloWordTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2957EC4C67CD05C6E82C3E9B6885085E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C52F0F04FA07205D1965A15EAF4A1CAA /* MBProgressHUD.release.xcconfig */;
@@ -1189,9 +1196,9 @@
 			};
 			name = Release;
 		};
-		59B7EC8436EE05E7B5AB4D6126C8A1C9 /* Release */ = {
+		2CC68B33AC4FBED064473B0AD4FAC4C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2D28C5D92E16BBFEC98C47A11906B16 /* Pods-HelloWord.release.xcconfig */;
+			baseConfigurationReference = AD1477ADAA21B4BE468BD7ABA0432B2A /* Pods-HelloWord-HelloWordUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1204,7 +1211,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HelloWord/Pods-HelloWord-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWord-HelloWordUITests/Pods-HelloWord-HelloWordUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1213,46 +1220,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HelloWord/Pods-HelloWord.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5A901B05BCD767CA42410C6F195A8F95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 097CD7FAE5E214846F26C62130CD4F00 /* Pods-HelloWordTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWord-HelloWordUITests/Pods-HelloWord-HelloWordUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1266,9 +1234,9 @@
 			};
 			name = Debug;
 		};
-		7031D30DA90B4F0709920DEEC227DFE1 /* Release */ = {
+		4512639C7F954501616140DC9F5CA44F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C968C6761407DDAEDF08431676E521C /* Pods-HelloWord-HelloWordUITests.release.xcconfig */;
+			baseConfigurationReference = 201EF27C03AE87785307694620C8854C /* Pods-HelloWord-HelloWordUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1304,6 +1272,82 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4D920DF7F208BE32D5445F2822702B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3050B61E50C5782E8E1D11C33A234495 /* Pods-HelloWordTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		852311D7F3D793834F7C665DDB6C16CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA0E552669E2B8033F27BE75B66552E /* Pods-HelloWord.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWord/Pods-HelloWord-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWord/Pods-HelloWord.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1362,45 +1406,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8E32CE9C66C1F4FD8AA4BA95B537B216 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DA008356EF1641ABEF24B568C62555D /* Pods-HelloWordTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HelloWordTests/Pods-HelloWordTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1471,6 +1476,45 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		B1BB427AEF7C21A075C6C848D0F88149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E98C04C9D60B08CA1EC823C00EE3A4 /* Pods-HelloWord.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWord/Pods-HelloWord-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWord/Pods-HelloWord.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D1F20CA5AF74551DBEC539096B44760B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1545,6 +1589,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		275E5679A88D58D104FD6468DF846B54 /* Build configuration list for PBXNativeTarget "Pods-HelloWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D920DF7F208BE32D5445F2822702B5F /* Debug */,
+				291C73CE4FCBB589186C188102CA8B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		41D6DFBE997E173748D09E9A11D890A3 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1563,6 +1616,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5DB54AFC7D13DCE5114582DF3DFE0BFB /* Build configuration list for PBXNativeTarget "Pods-HelloWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852311D7F3D793834F7C665DDB6C16CC /* Debug */,
+				B1BB427AEF7C21A075C6C848D0F88149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63042FC3A7C9C3AB1E03F53DFC4C4B47 /* Build configuration list for PBXNativeTarget "Pods-HelloWord-HelloWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC68B33AC4FBED064473B0AD4FAC4C1 /* Debug */,
+				4512639C7F954501616140DC9F5CA44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1572,38 +1643,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E85077D718076CAE56B44F0F6735552 /* Build configuration list for PBXNativeTarget "Pods-HelloWord" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				023D352B5710D24FD1444A4D1F013116 /* Debug */,
-				59B7EC8436EE05E7B5AB4D6126C8A1C9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				933C252AC1697174177192BE69B419F9 /* Debug */,
 				D1F20CA5AF74551DBEC539096B44760B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD6560FE1C59F45B518042D9E190F789 /* Build configuration list for PBXNativeTarget "Pods-HelloWord-HelloWordUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08FEAB1DE3603249190184A8DCC4B425 /* Debug */,
-				7031D30DA90B4F0709920DEEC227DFE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9986471429046F62031C49649E0FAB5 /* Build configuration list for PBXNativeTarget "Pods-HelloWordTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A901B05BCD767CA42410C6F195A8F95 /* Debug */,
-				8E32CE9C66C1F4FD8AA4BA95B537B216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
