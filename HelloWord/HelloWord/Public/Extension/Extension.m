@@ -209,7 +209,7 @@ NSString * SafeString(NSString *input) {
     NSString * timeStr = [NSString stringWithFormat:@"%@",[objDateformat stringFromDate: date]];
     return timeStr;
 }
-- (NSString *)substringToIndex:(NSUInteger)to {
+- (NSString *)yu_substringToIndex:(NSUInteger)to {
     NSUInteger length = self.length;
     if (length <= 0) { return @""; }
     

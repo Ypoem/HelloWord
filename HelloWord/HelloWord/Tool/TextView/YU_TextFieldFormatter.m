@@ -60,11 +60,11 @@
 //    NSLog(@"newString length = %lu, count = %ld", newString.length , count);
 //    NSLog(@"self index = %ld",index);
     
-    NSString *frontString = [[newString substringToIndex:index] stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSString *frontString = [[newString yu_substringToIndex:index] stringByReplacingOccurrencesOfString:@" " withString:@""];
     NSString *postString = [[newString substringFromIndex:index] stringByReplacingOccurrencesOfString:@" " withString:@""];
     if ([string isEqualToString:@""]) {
         index = MIN(newString.length, index);
-        frontString = [frontString substringToIndex:frontString.length - 1];
+        frontString = [frontString yu_substringToIndex:frontString.length - 1];
     } else {
         frontString = newString = [NSString stringWithFormat:@"%@%@", frontString, string];
     }
@@ -85,7 +85,7 @@
             break;
         }
         int subLength = _lengthArray[pivot].intValue;
-        NSString* subString = [new_str substringToIndex:MIN(new_str.length, subLength)];
+        NSString* subString = [new_str yu_substringToIndex:MIN(new_str.length, subLength)];
         newString = [newString stringByAppendingString:subString];
         if (subString.length == subLength) {
             newString = [newString stringByAppendingString:@" "];
