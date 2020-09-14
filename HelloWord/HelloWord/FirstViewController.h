@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FirstViewController.h
 //  HelloWord
 //
 //  Created by 张诗雨 on 2020/9/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface FirstViewController : UIViewController
 
 
 @end
