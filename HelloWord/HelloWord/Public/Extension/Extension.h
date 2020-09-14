@@ -73,5 +73,8 @@ FOUNDATION_EXPORT UIWindow * AppKeyWindow(void);
  @return 时间字符串
  */
 + (NSString *)timeIntervalToTimestring:(NSString *)timeInterval dateFormat:(NSString *)dateFormat;
+
+- (NSString *)substringToIndex:(NSUInteger)to;
+
 @end
 NS_ASSUME_NONNULL_END

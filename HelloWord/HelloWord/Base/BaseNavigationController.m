@@ -40,5 +40,45 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    if (navigationController.viewControllers.count == 1) {
+        self.currentShowVC = nil;
+    } else {
+        self.currentShowVC = viewController;
+    }
+   
+}
+
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+{
+    if (gestureRecognizer == self.interactivePopGestureRecognizer) {
+        return (self.currentShowVC == self.topViewController);
+    }
+    return YES;
+}
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
+{
+    if ([gestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]] && [otherGestureRecognizer isKindOfClass:[UIScreenEdgePanGestureRecognizer class]]) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+//关闭侧滑
+- (void)closeInteractivePopGestureRecognizer {
+
+    
+}
+#pragma - StatusBar
+- (UIViewController *)childViewControllerForStatusBarStyle {
+    return self.topViewController;
+}
+
+- (UIViewController *)childViewControllerForStatusBarHidden {
+    return self.topViewController;
+}
+
 
 @end
